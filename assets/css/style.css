@@ -19,9 +19,35 @@ body {
     clear: both;
   }
   
-  h1,
-  h2,
-  h3,
+  h1 {
+    margin-bottom: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;    
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 22px;
+    
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 22px;
+    
+  }
+
   p {
     margin-bottom: 20px;
   }
@@ -30,26 +56,7 @@ body {
     margin-bottom: 0;
   }
   
-  h1,
-  h2,
-  h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: #4aaaa5;
-  }
-  
-  h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #ddd;
-  }
-  
-  h2,
-  h3 {
-    font-size: 22px;
-  }
-  
+ 
   /* header */
   
   #masthead {
@@ -215,4 +222,65 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width: 980px) {
+    
+  }
   
+  @media screen and (max-width: 768px) {
+  
+  }
+
+  @media screen and (max-width: 640px) {
+
+    #masthead {
+      position: static;
+      color: #fff;
+      background: #fff;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 5px;
+    }
+
+    #logo {
+      width: 100%;     
+    }
+
+    nav {
+      width: 100%;
+      height: 40px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    
+    #main-container {
+      padding-top: 30px;
+      min-height: calc(100vh - 70px);
+    }
+
+    .main-section {
+      clear: both;
+    }
+
+    .auth-image {
+      width: 100%;
+      height: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .work {
+      clear: both;
+      position: static;
+      width: 100%;
+    }
+
+    .work h3 {
+      position: static;
+      
+    }
+    
+  }
